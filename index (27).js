@@ -4,7 +4,7 @@ import TabItem from '../TabItem'
 import './index.css'
 
 const SEARCH_ICON_URL =
-  '"https://assets.ccbp.in/frontend/content/react-js/app-store-output.gif'
+  'https://assets.ccbp.in/frontend/content/react-js/app-store-output.gif'
 
 const tabsList = [
   {tabId: 'SOCIAL', displayText: 'Social'},
