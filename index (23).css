@@ -1,0 +1,169 @@
+/* App container */
+.app-container {
+  background-color: #f8fafc;
+  min-height: 100vh;
+  padding: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Logo */
+.app-container > img {
+  width: 150px;
+  margin-bottom: 20px;
+}
+
+/* Password container section */
+.password-container {
+  background-color: #5763a5;
+  padding: 30px;
+  border-radius: 16px;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+/* Form */
+.add-container {
+  background-color: #454f84;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.add-container h1 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #f8fafc;
+}
+
+/* Input rows */
+.initial-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  background-color: #f8fafc;
+  border-radius: 8px;
+  padding: 8px 12px;
+}
+
+.initial-container input {
+  border: none;
+  outline: none;
+  flex-grow: 1;
+  font-size: 14px;
+  padding: 8px;
+  margin-left: 10px;
+  background-color: transparent;
+  color: #1e293b;
+}
+
+.imag {
+  width: 20px;
+  height: 20px;
+}
+
+/* Add Button */
+.add-btn {
+  background-color: #0b69ff;
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Filter/search section */
+.filter-container {
+  background-color: #454f84;
+  padding: 15px;
+  border-radius: 12px;
+  margin-top: 20px;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  background-color: #f8fafc;
+  border-radius: 8px;
+  padding: 8px 12px;
+  margin-bottom: 10px;
+}
+
+.search-bar input {
+  border: none;
+  outline: none;
+  flex-grow: 1;
+  font-size: 14px;
+  padding: 8px;
+  margin-left: 10px;
+  background-color: transparent;
+  color: #1e293b;
+}
+
+.image {
+  width: 20px;
+  height: 20px;
+}
+
+/* Checkbox */
+.check-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #f8fafc;
+  margin-top: 10px;
+}
+
+/* Password List */
+.password-list {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+/* No Passwords view */
+.img-container {
+  text-align: center;
+  padding: 40px 0;
+}
+
+.img-container img {
+  width: 150px;
+  margin-bottom: 10px;
+}
+
+.img-container p {
+  font-size: 16px;
+  color: #f8fafc;
+}
+
+/* Optional styling for PasswordItem (can move to its own CSS) */
+.password-item {
+  background-color: #f8fafc;
+  padding: 15px;
+  border-radius: 12px;
+  width: 250px;
+  color: #1e293b;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.password-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.delete-btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.delete-icon {
+  width: 20px;
+  height: 20px;
+}
